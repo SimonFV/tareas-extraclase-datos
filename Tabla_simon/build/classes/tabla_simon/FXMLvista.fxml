@@ -8,17 +8,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tabla_simon.FXMLvistaController">
    <children>
       <AnchorPane prefHeight="81.0" prefWidth="600.0">
          <children>
             <Label layoutX="14.0" layoutY="20.0" prefHeight="17.0" prefWidth="156.0" text="Seleccione un archivo csv." />
-            <Button layoutX="170.0" layoutY="16.0" mnemonicParsing="false" text="Explorar" />
-            <Label layoutX="14.0" layoutY="59.0" prefHeight="17.0" prefWidth="359.0" text="Nombre" />
+            <Button layoutX="170.0" layoutY="16.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Explorar" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutY="78.0" prefHeight="322.0" prefWidth="600.0">
+      <AnchorPane layoutY="54.0" prefHeight="346.0" prefWidth="600.0">
          <children>
             <TableView prefHeight="322.0" prefWidth="600.0">
               <columns>

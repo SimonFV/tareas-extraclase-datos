@@ -8,7 +8,9 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Tabla_simon.jar" size="2734" download="eager" />
+    <jar href="Tabla_simon.jar" size="3441" download="eager" />
+    <jar href="lib\javacsv.jar" size="13582" download="eager" />
+    <jar href="lib\opencsv-4.6.jar" size="170348" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Tabla_simon" >
     <param name="requiredFXVersion" value="8.0+"/>
